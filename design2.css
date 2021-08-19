@@ -1,0 +1,62 @@
+.foto {
+    border-radius: 50%;
+    border: 3px black solid;
+}
+
+
+body{
+    background-color: coral;
+}
+
+#titulo {
+    text-transform: uppercase;
+}
+
+.autor {
+    text-decoration: black;
+    font-size: 15px;
+    font-style: italic;
+    
+}
+.imagem {
+    margin-bottom: 15px;
+    width: 80%;
+}
+.borda {
+    border: 2px solid black;
+    padding: 28px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.borda2 {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#coluna2 {
+    background: dodgerblue;
+    margin: 5px;
+    padding: 30px;
+    font-weight: bold;
+}
+#coluna3 {
+    background-color: coral;
+    margin: 5px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+
+.imagem-zoom{
+    transition: all 0.3s;
+}
+.imagem-zoom:hover{
+    transition: 3s;
+    transform: scale(1.5);
+    transform: rotate3d(500grad);
+}
+.fundo {
+    background-color: orangered;
+    background-repeat: no-repeat;
+}
